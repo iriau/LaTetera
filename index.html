@@ -1,54 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Tetera de Casa Viridis</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Indie+Flower&family=Rock+Salt&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Indie+Flower&family=Protest+Revolution&family=Rock+Salt&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <title>La Tetera de Casa Viridis</title>
+  <link rel='stylesheet' href='https://unpkg.com/flickity@2.0.3/dist/flickity.min.css'><link rel="stylesheet" href="./css/carrousel.css">
 
 </head>
-<style>
+  <body>
+  <!-- partial:index.partial.html -->
+  <!-- <h1>Scroll or Drag, created using Flickity Transformer</h1> -->
+  <div class="Slider">
 
-    .bungee-tint-regular {
-        font-family: "Bungee Tint", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      .rock-salt-regular {
-        font-family: "Rock Salt", cursive;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      
-
-</style>
-
-<body>
-    <div id=" container">
-        <img src="./img/menu.png" alt="Productos en Venta" width="100%">
-    </div>  
-    <div >
-        <table align="center">
-            <tr>
-                <td align="center">
-                   <a href="https://www.facebook.com/LaTeteraDeCasaViridis"  class="rock-salt-regular" ><img src="./img/facebook.png"> Siguenos en facebook!</a> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="bungee-tint-regular">Checa nuestra carta cotinuamente, ya que puede cambiar d&iacute;a a d&iacute;a</p>
-                </td>
-            </tr>
-        </table>        
+    <div class="Slide">
+      <li> <img src='./img/capuchino.jpg' alt='capuchino ' />Capuchino</li>
     </div>
-</body>
+
+    <div class="Slide">
+      <li> <img src='./img/galleta_chocolate.jpg' alt='Galleta De Chocolate' />Galleta De Chocolate</li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/matcha_caliente.jpg' alt='Matcha Caliente.' />Matcha Caliente</li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/galleta limon.jpg' alt='Galleta De Limon.' />Galleta De Lim&oacute;n</li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/matcha_frio.jpg' alt='Matcha Frio.' />Match Fr&iacute;o</li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/galleta_nutela.jpg' alt='Galleta De Nutela.' />Galleta de Nutela</li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/te_muicle.jpg' alt='Te De Muicle.' />T&eacute; de Muicle</li>
+    </div>
+
+    <div class="Slide">
+      <li><img src='./img/galleta_cafe.jpg' alt='Galleta De Cafe.' />Galleta de Caf&eacute;</li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/menu1.png' alt='Carta del dia.' /></li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/te.jpg' alt='Te de Manzanilla.' />T&eacute; de Manzanilla</li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/galleta_matcha.jpg' alt='Galleta De Matcha.' />Galleta de Matcha</li>
+    </div>
+
+    <div class="Slide">
+      <li> <img src='./img/emparedado_casa.jpg' alt='Emparedado de la casa.' />Emparedado de la Casa</li>
+    </div>
+
+    <!--
+     <div class="Slide">
+      <li><img src='./img/rol_canela.jpg' alt='Rol de canela.' />Rol de Can&eacute;la</li>
+    </div>   
+    -->
+
+    <div class="Slide">
+      <li> <img src='./img/tartaleta_chocolate.jpg' alt='Tartaleta.' />Rebanada de Tartaleta</li>
+    </div>
+
+    <!--
+     <div class="Slide">
+      <li> <img src='./img/ramo_lavanda.jpg' alt='Ramo de lavanda.' />Ramo de Lavanda</li>
+    </div>   
+    -->
+    <div class="Slide">
+      <li> <img src='./img/wafle_chocolate.jpg' alt='Wafle de chocolate.' />Wafle Prote&iacute;co de Cocoa</li>
+    </div>
+
+  </div>
+  <!-- partial -->
+    <script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js'></script>
+    <script src='https://unpkg.com/flickity-transformer/dist/flickity-transformer.pkgd.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js'></script>
+    <script  src="./js/carrousel.js"></script>
+  </body>
 </html>
